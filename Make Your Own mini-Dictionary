@@ -1,0 +1,4 @@
+dict1={}
+for i in range(97,123): #range of ASCII codes for lower case letters of alphabets 
+    dict1[chr(i)] = i
+print(dict1,end=" ")
